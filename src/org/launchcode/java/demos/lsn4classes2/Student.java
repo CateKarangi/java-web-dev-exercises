@@ -30,9 +30,12 @@ public class Student {
 
 
      //TODO: Uncomment and complete the getGradeLevel method here:
-//    public String getGradeLevel() {
-//        // Determine the grade level of the student based on numberOfCredits
-//    }
+  public static Object getGradeLevel() {
+     // Determine the grade level of the student based on numberOfCredits
+      public String getGradeLevel(int level){
+          Student[] students = new Student[0];
+          return "";
+   }
 
     // TODO: Complete the addGrade method.
     public void addGrade(int courseCredits, double grade) {
@@ -87,3 +90,6 @@ public class Student {
         System.out.println(sally);
     }
 }
+
+    private int getLevel() {
+    }
